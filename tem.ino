@@ -15,7 +15,7 @@ DallasTemperature sensors(&oneWire);
 
 void setup() {
   // Begin serial communication at a baud rate of 9600:
-  Serial.begin(9600);
+  Serial.begin(115200);
   // Start up the library:
   sensors.begin();
 }
